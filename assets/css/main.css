@@ -9763,7 +9763,7 @@ img {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  padding: 500px 0 40px;
+  padding: 530px 0 40px;
 }
 .hero2-arrow-hero .hero-main-slider .hero2-slider-area::after {
   position: absolute;
@@ -23714,7 +23714,7 @@ img {
   line-height: 18px;
   display: inline-block;
   transition: all 0.4s;
-  background: #6c6c6c;
+  background: #f57f20;
   border-radius: 10px;
   padding: 18px 90px;
 }
@@ -23914,18 +23914,80 @@ background-color: #fff;
 }
 
 @media  screen and (max-width: 576px) {
-  .bottom-button {
-    
-    left: 22%;}
+
     .vl-footer2-section-area .footer-widget-area form button {
    
     font-size: 16px;
     width: 40%;
     padding: 15px;
 }
+.about2 {
+
+    margin-top: 47px;
+}
+.vl-footer2-section-area {
+
+    padding: 50px 0 0px;
+  
+}
+    .inner-header-area {
+        padding: 116px 0 40px 0;
+    }
+        .inner-header-area .inner-heading h1 {
+        line-height: 26px;
+        /* font-size: var(--ztc-font-size-font-s32); */
+        font-size: 25px;
+    }
+    .inner-header-area .inner-heading a {
+    color: #fff;
+
+    line-height: 1px;
+
+    font-size: 14px;
+}
+    .quote-heading {
+        font-size: 25px !important;
+                margin: 0px !important;
+    }
+    .quote-description {
+    font-size: 15px !important;
+    line-height: 1.7;
+    color: #f1f1f1;
+    max-width: 868px;
+    margin: 0 auto;
+    padding: 16px 0px;
+}
+    #vlNavbarMenu {
+        position: absolute;
+        top: 85% !important;
+        left: 0px;
+        width: 100%;
+        z-index: 9999;
+        text-align: left;
+        background: #083559 !important;
+    }
+        .vl-main-menu ul.main-menu li a {
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        margin: 0px !important;
+    }
+    .tab-pane .choose-heading .card {
+
+    padding: 11px !important;
+  
+}
+.choose-about-area .choose-button-area ul li button {
+ 
+   padding: 17px 0px !important; 
+    width: 188px !important;
+}
 .vl-footer2-section-area .footer-widget-area form input {
   
     padding: 16px;
+}
+.space20 {
+    height: 4px !important;
 }
   }
   .brand-logo {
@@ -25445,10 +25507,10 @@ body {
 
 @media screen and (max-width: 576px) {
      .bottom-button {
-               position: fixed;
-        bottom: 68px;
-        left: 71% !important;
-        width: 47%;
+             position: fixed;
+        bottom: 85px;
+        right: -5% !important;
+        width: 49px;
        
     }
     .img-11{
@@ -25466,9 +25528,9 @@ body {
     padding: 0px 0;
 }
 .bottom-button2 {
-    position: fixed;
-    bottom: 20px;
-    right: -19%;
+          position: fixed;
+        bottom: 21px !important;
+        right: -5% !important;
   
 }
 .iso-img{
