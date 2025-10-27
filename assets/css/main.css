@@ -24911,7 +24911,7 @@ font-size: 18px;
 }
 
 .blog-read-more:hover {
-  color: #b02a37;
+  color: #F57F20;
 }
 
 
@@ -24960,7 +24960,7 @@ font-size: 18px;
 }
 
 .quote-btn:hover {
-  background-color: #b02a37;
+  background-color: #F57F20;
   text-decoration: none;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -26252,3 +26252,103 @@ body {
     font-weight: 600;
     margin-top: 4px;
   }
+
+  .tab-pane .choose-heading{
+
+    background-color: #F8F9FA;
+    border-radius: 12px;
+  }
+
+   .tab-pane .choose-heading .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+          
+            animation: fadeInUp 1s ease;
+        }
+
+
+
+
+
+
+
+
+
+
+          .tab-pane .choose-heading .card-icon {
+            width: 70px;
+            height: 70px;
+            background: #083559;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            font-size: 2em;
+        }
+
+        .tab-pane .choose-heading  .card h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        .tab-pane .choose-heading  .card h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: #083559;
+            border-radius: 2px;
+        }
+
+       .tab-pane .choose-heading   .card p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+      .tab-pane .choose-heading    .mission-card {
+            grid-column: 1 / -1;
+        }
+
+       .tab-pane .choose-heading   .mission-aims {
+            margin-top: 30px;
+        }
+
+        .tab-pane .choose-heading  .mission-aims h3 {
+            color: #333;
+            font-size: 1.4em;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .tab-pane .choose-heading  .aim-item {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border-left: 4px solid #083559;
+            transition: all 0.3s ease;
+        }
+
+        .tab-pane .choose-heading  .aim-item:hover {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            transform: translateX(10px);
+        }
+
+        .tab-pane .choose-heading  .aim-item p {
+            margin: 0;
+            color: #444;
+            font-size: 1.05em;
+        }
+        .tab-pane .choose-heading i{
+          color: #F57F20;
+          font-size: 36px;
+        }
