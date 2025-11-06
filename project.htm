@@ -16,6 +16,106 @@
     <link rel="stylesheet" href="assets/css/main.css">
     
 
+      <style>
+   
+   
+
+    /* Button */
+    .open-btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .open-btn:hover {
+      background: #0056b3;
+    }
+
+    /* Popup background */
+    .popup-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+    }
+
+    /* Popup box */
+    .popup {
+      background: #fff;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+      width: 400px;
+      position: relative;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: scale(0.9);}
+      to {opacity: 1; transform: scale(1);}
+    }
+
+    .popup h2 {
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .popup input, .popup textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .popup textarea {
+      resize: none;
+      height: 80px;
+    }
+
+    .popup .submit-btn {
+width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    color: #ffffffff;
+    font-size: 33px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    }
+
+   
+    .close-btn {
+    position: absolute;
+    top: -22px !important;
+    right: -10px !important;
+    /* left: 180px !important; */
+    background:transparent !important;
+    border: 1px solid transparent !important;
+    font-size: 33px !important;
+    cursor: pointer !important;
+    color: #000000;
+        padding: 11px !important;
+
+    }
+
+    .close-btn:hover {
+      color: #000 !important;
+    }
+  </style>
 </head>
 <body>
 
@@ -140,8 +240,207 @@
         </div>
       </div>
 
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Ambience Mall Gurgaon.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Ambience Mall Gurgaon</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/bhutani-city-centre-32-noida-YD0wanX1lkiNVRLw.webp" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Mall Of India Noida</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/CelebrationMall_UdaiPur_Gallery1.webp" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Celebration Mall Udaipur</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/elante-mall.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Elante Mall Chandigarh</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/gaur city noida.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Gaur City Center Greater Noida West</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/GRAND VENICE MALL.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>GRAND VENICE MALL</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+    
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Lucknow Phoenix Mall.jpeg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Phoenix Mall Lucknow</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Mall Of Amritsar.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Mall Of Amritsar</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/OrnaxeChandani Chowk.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Omaxe Chand ani Chowk</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/PACIFIC MALL DWARKA.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>PACIFIC MALL DWARKA</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Pacific Mall Subhas N.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Pacific Mall Subhas Nagar</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/pacific-dehradun.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Pacific Mall Dehradun</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Phoenix Mall Bareilly.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Phoenix Mall Bareilly</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
 
-      <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/Phoenix Mall Lucknow.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Lucknow Phoenix Mall</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/vegas_mall.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>VEGUS MALL Dwarka</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+       <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="project-widget-boxarea">
+          <div class="img1">
+            <img src="assets/images/project/z-mall.jpg" alt="">
+          </div>
+          <div class="content-area">
+            <h2>Z Square Mall Kanpur</h2>
+           <a id="openPopup" target="_blank"><p> More Details</p></a>
+          </div>
+        </div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <div class="col-lg-4 col-md-6" data-aos="fade-right" data-aos-duration="900">
         <div class="project-widget-boxarea">
           <div class="img1">
             <img src="assets/images/p1.jpg" alt="">
@@ -249,7 +548,7 @@
 </p>
           </div>
         </div>
-      </div>
+      </div> -->
 
 
       
@@ -292,6 +591,108 @@
     
   </div>
 </a>
+
+
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup">
+      <button class="close-btn" id="closePopup">&times;</button>
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button style="background: #083559;" class="submit-btn" type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+   // JS only — supports multiple buttons opening the same popup.
+// Put this script at the end of the body or wrap in DOMContentLoaded.
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Find overlay / close / form (these are single elements)
+  const popupOverlay = document.getElementById('popupOverlay');
+  const closeBtn = document.getElementById('closePopup');
+  const contactForm = document.getElementById('contactForm');
+
+  if (!popupOverlay) {
+    console.warn('popupOverlay not found (id="popupOverlay")');
+    return;
+  }
+
+  // Select any element that might be used as an "open" trigger:
+  // - elements with class "openPopup"
+  // - elements with attribute data-open-popup
+  // - elements (possibly duplicated by mistake) with id "openPopup"
+  const openBtns = document.querySelectorAll('.openPopup, [data-open-popup], [id="openPopup"]');
+
+  // If you prefer a specific selector, give your buttons class="openPopup"
+  if (!openBtns.length) {
+    console.warn('No open buttons found. Add class="openPopup" to your open buttons.');
+  }
+
+  // Utility to show/hide overlay and manage focus
+  function showOverlay() {
+    popupOverlay.style.display = 'flex';
+    popupOverlay.setAttribute('aria-hidden', 'false');
+    // focus first focusable element inside popup for UX
+    const first = popupOverlay.querySelector('input, textarea, button, [tabindex]:not([tabindex="-1"])');
+    if (first) first.focus();
+    // prevent background scroll (simple)
+    document.documentElement.style.overflow = 'hidden';
+  }
+
+  function hideOverlay() {
+    popupOverlay.style.display = 'none';
+    popupOverlay.setAttribute('aria-hidden', 'true');
+    document.documentElement.style.overflow = '';
+  }
+
+  // Wire open buttons
+  openBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      showOverlay();
+    });
+  });
+
+  // Wire close button inside popup (if present)
+  if (closeBtn) {
+    closeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      hideOverlay();
+    });
+  }
+
+  // Click outside popup content to close
+  popupOverlay.addEventListener('click', (e) => {
+    // assume .popup is the inner content; close only when overlay itself is clicked
+    if (e.target === popupOverlay) hideOverlay();
+  });
+
+  // Close on ESC
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' || e.key === 'Esc') {
+      const style = window.getComputedStyle(popupOverlay);
+      if (style.display !== 'none') hideOverlay();
+    }
+  });
+
+  // Handle form submit (prevent reload + simple feedback)
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      // you can replace this with an AJAX call / fetch to send data
+      alert('Message sent!');
+      contactForm.reset();
+      hideOverlay();
+    });
+  }
+});
+
+  </script>
 
 
 

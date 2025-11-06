@@ -25769,7 +25769,7 @@ body {
 }
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):hover {
-    color: #fff !important;
+    color: #fff;
  
 }
 
@@ -26313,6 +26313,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     margin-top: 4px;
+    cursor: pointer;
   }
 
   .tab-pane .choose-heading{
